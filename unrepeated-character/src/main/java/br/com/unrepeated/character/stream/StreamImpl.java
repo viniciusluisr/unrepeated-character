@@ -11,7 +11,7 @@ public class StreamImpl implements  Stream {
 
     private Iterator<Character> unrepeatedCharacteres;
 
-    public StreamImpl(String text) {
+    public StreamImpl(final String text) {
         List<Character> unrepeated = new ArrayList<Character>();
         Set<Character> characteres = new HashSet<Character>();
 
